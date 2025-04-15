@@ -1,11 +1,3 @@
-import {
-  // DancingScriptFont,
-  // InterFont,
-  // LibreBaskervilleFont,
-  // NotoSansGeorgianFont,
-  NotoSerifJPFont,
-  LoraFont,
-} from "@/config/fonts";
 import "@/styles/globals.css";
 import type { FC } from "react";
 type RootLayoutProps = {
@@ -21,10 +13,9 @@ const RootLayout: FC<RootLayoutProps> = (props) => {
   return (
     <html lang="ja">
       <body
-        // className={`${InterFont.variable} ${DancingScriptFont.variable} ${NotoSansGeorgianFont.variable} ${LibreBaskervilleFont.variable} `}
-        className={`${NotoSerifJPFont.variable} ${LoraFont.variable} `}
+      // className={`${InterFont.variable} ${DancingScriptFont.variable} ${NotoSansGeorgianFont.variable} ${LibreBaskervilleFont.variable} `}
       >
-        <main>{props.children}</main>
+        {props.children}
       </body>
     </html>
   );
