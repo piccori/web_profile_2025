@@ -7,6 +7,7 @@ import HomeContent from "@/app/_components/home";
 const Profile: FC = () => {
   return (
     <main className="relative">
+      {/* 背景画像 */}
       <div className="absolute inset-0 -z-10 min-h-screen">
         <Image
           src="/images/background-image-jiburi.png"
@@ -15,6 +16,10 @@ const Profile: FC = () => {
           className="object-cover"
         />
       </div>
+
+      {/* 空にだけアニメーション */}
+      <div className="rain-bg" />
+
       <div className="relative z-10 flex flex-col items-center h-screen">
         <div className="flex flex-col items-center">
           <h1 className="text-h2 leading-[1.2] tracking-hero font-hero text-primary-soft-beige mt-[87px]">
