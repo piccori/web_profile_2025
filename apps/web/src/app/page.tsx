@@ -34,7 +34,7 @@ const Profile: FC = () => {
           </p>
         </div>
         <div className="w-full max-w-[1140px] mt-[58px]">
-          <Tabs>
+          <Tabs defaultValue="home">
             <TabsList className="w-full bg-accent-mystic-purple">
               <TabsTrigger value="home">Home</TabsTrigger>
               <TabsTrigger value="projects">Projects</TabsTrigger>
