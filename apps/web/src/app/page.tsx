@@ -1,7 +1,10 @@
+"use client";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
 import type { FC } from "react";
 import HomeContent from "@/app/_components/home";
+import ProjectsContent from "./_components/projects";
 
 // Home Page
 const Profile: FC = () => {
@@ -31,7 +34,7 @@ const Profile: FC = () => {
           </p>
         </div>
         <div className="w-full max-w-[1140px] mt-[58px]">
-          <Tabs defaultValue="home">
+          <Tabs>
             <TabsList className="w-full bg-accent-mystic-purple">
               <TabsTrigger value="home">Home</TabsTrigger>
               <TabsTrigger value="projects">Projects</TabsTrigger>
@@ -40,6 +43,9 @@ const Profile: FC = () => {
             </TabsList>
             <TabsContent value="home">
               <HomeContent />
+            </TabsContent>
+            <TabsContent value="projects">
+              <ProjectsContent />
             </TabsContent>
           </Tabs>
         </div>
