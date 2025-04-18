@@ -21,25 +21,46 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "OpenType",
-    slug: "opentype",
-    desc: "A minimalistic typing speed testing app built with React and TailwindCSS.",
+    title: "Hello World",
+    slug: "hello-world",
+    desc: "HI, I'm Taisei Higa",
     tech: ["React", "Redux", "TailwindCSS"],
     thumb: "https://picsum.photos/seed/typing/640/360",
   },
   {
-    title: "Students Get Rentals",
-    slug: "students-get-rentals",
-    desc: "A student rental platform for students to find and rent properties.",
+    title: "HIGA PORTFOLIO",
+    slug: "higaportfolio",
+    desc: "A portfolio website for Taisei Higa",
     tech: ["React", "NextJS", "Nextra", "MongoDB"],
     thumb: "https://picsum.photos/seed/rentals/640/360",
   },
   {
-    title: "Call Analytics",
-    slug: "call-analytics",
-    desc: "A minimal and aesthetic app that scans your call history and gives you incredible insights.",
-    tech: ["React", "React Native", "Chart.js"],
-    thumb: "https://picsum.photos/seed/call/640/360",
+    title: "Hello World",
+    slug: "hello-world",
+    desc: "HI, I'm Taisei Higa",
+    tech: ["React", "Redux", "TailwindCSS"],
+    thumb: "https://picsum.photos/seed/typing/640/360",
+  },
+  {
+    title: "HIGA PORTFOLIO",
+    slug: "higaportfolio",
+    desc: "A portfolio website for Taisei Higa",
+    tech: ["React", "NextJS", "Nextra", "MongoDB"],
+    thumb: "https://picsum.photos/seed/rentals/640/360",
+  },
+  {
+    title: "Hello World",
+    slug: "hello-world",
+    desc: "HI, I'm Taisei Higa",
+    tech: ["React", "Redux", "TailwindCSS"],
+    thumb: "https://picsum.photos/seed/typing/640/360",
+  },
+  {
+    title: "HIGA PORTFOLIO",
+    slug: "higaportfolio",
+    desc: "A portfolio website for Taisei Higa",
+    tech: ["React", "NextJS", "Nextra", "MongoDB"],
+    thumb: "https://picsum.photos/seed/rentals/640/360",
   },
 ];
 

@@ -11,18 +11,17 @@ const Profile: FC = () => {
   return (
     <main className="relative">
       {/* 背景画像 */}
-      <div className="absolute inset-0 -z-10 min-h-screen">
+      <div className="fixed inset-0 -z-20">
         <Image
           src="/images/background-image-jiburi.png"
-          alt="background"
+          alt="Starry Ghibli landscape"
           fill
+          priority
           className="object-cover"
         />
       </div>
-
       {/* 空にだけアニメーション */}
       <div className="rain-bg" />
-
       <div className="relative z-10 flex flex-col items-center h-screen">
         <div className="flex flex-col items-center">
           <h1 className="text-h2 leading-[1.2] tracking-hero font-hero text-primary-soft-beige mt-[87px]">
@@ -38,8 +37,8 @@ const Profile: FC = () => {
             <TabsList className="w-full bg-accent-mystic-purple">
               <TabsTrigger value="home">Home</TabsTrigger>
               <TabsTrigger value="projects">Projects</TabsTrigger>
-              <TabsTrigger value="about">About me</TabsTrigger>
-              <TabsTrigger value="contact">Contact</TabsTrigger>
+              {/* <TabsTrigger value="about">About me</TabsTrigger> */}
+              {/* <TabsTrigger value="contact">Contact</TabsTrigger> */}
             </TabsList>
             <TabsContent value="home">
               <HomeContent />
